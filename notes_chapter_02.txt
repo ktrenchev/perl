@@ -1,0 +1,5 @@
+use diagnostics; => More descriptive warnings.
+in automatic conversions perl does not recognise octal, hex or binary forms. For example 'avg' x '011' will give 'avg' 11 times instead of 'avg' 9 times.
+chr( <number> ) => returns the character denoded by that number.
+ord( <number> ) => returns the number assosciated with that character.
+"In fact nearly every sequence of punctuation is used for something in Perl" xD True story (36p, Learning Perl).
