@@ -1,5 +1,19 @@
-use diagnostics; => More descriptive warnings.
-in automatic conversions perl does not recognise octal, hex or binary forms. For example 'avg' x '011' will give 'avg' 11 times instead of 'avg' 9 times.
-chr( <number> ) => returns the character denoded by that number.
-ord( <number> ) => returns the number assosciated with that character.
-"In fact nearly every sequence of punctuation is used for something in Perl" xD True story (36p, Learning Perl).
+1) Use diagnostics; => More descriptive warnings.
+
+2) In automatic conversions perl does not recognise octal, hex or binary forms. For example 'avg' x '011' will give 'avg' 11 times instead of 'avg' 9 times.
+
+3) chr( <number> ) => returns the character denoded by that number.
+   ord( <number> ) => returns the number assosciated with that character.
+
+4) "In fact nearly every sequence of punctuation is used for something in Perl" xD True story (36p, Learning Perl).
+
+5) chomp( $var ) => removes trailing newline. Returns the number of \n
+deleter ( 0 / 1 ). 
+
+6) reading user input => <STDIN>. Possibly <> is the operator and STDIN
+is just and argument.
+
+7) If one wants to print multiple things to stdout ( for example a
+string literal followed by a function call return value followed by
+a new line ), one must give print a comma separated list of things
+to print. 
